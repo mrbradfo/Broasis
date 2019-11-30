@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color:cadetblue;
 }
 
 a:hover {
-  color: #fec503;
+  color: cadetblue;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: cadetblue !important;
 }
 
 h1,
@@ -61,12 +61,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: cadetblue;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: cadetblue;
   text-shadow: none;
 }
 
@@ -93,13 +93,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: cadetblue;
+  border-color: cadetblue;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: cadetblue !important;
+  border-color: cadetblue!important;
   color: white;
 }
 
@@ -123,7 +123,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: cadetblue;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -141,7 +141,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #cadetblue;
 }
 
 @media (min-width: 992px) {
@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: black;
-  background-image: url("../img/PsycheImage.jpg");
+  background-image: url("../img/Broasis-CRB.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -194,6 +194,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
+  /* background-color: cadetblue; */
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -207,6 +208,8 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
+    background-color: cadetblue;
+    opacity: 0.5;
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
@@ -214,6 +217,8 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .intro-text .intro-heading {
+    background-color: cadetblue;
+    opacity: 0.5;
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -246,7 +251,7 @@ header.masthead .intro-text .intro-heading {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: cadetblue;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -442,7 +447,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: cadetblue;
 }
 
 .timeline > li .timeline-image h4 {
@@ -613,7 +618,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: cadetblue;
   box-shadow: none;
 }
 
